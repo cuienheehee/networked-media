@@ -1,0 +1,14 @@
+body{
+    background-color: linen;
+}
+
+p{
+    color: mediumvioletred;
+    padding: 20px;
+    margin: 40px;
+}
+
+.header{
+    margin-top: 50px;
+    font-size: x-large;
+}

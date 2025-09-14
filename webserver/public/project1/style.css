@@ -1,0 +1,33 @@
+p{
+    color: brown;
+    padding: 20px;
+    margin: 40px;
+}
+
+.header{
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.innertext{
+    padding:0px;
+    margin: 0px;
+}
+
+.centertext{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+div{
+    color: brown;
+    background-color: floralwhite;
+    border: solid brown 3px;
+    padding: 20px;
+    margin: 40px;
+    width: 50%;
+    height: 200px;
+    overflow: auto;
+    margin: auto;
+}
