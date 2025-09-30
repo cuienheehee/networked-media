@@ -1,0 +1,29 @@
+body{
+    border: 20px;
+    font-size: xx-large;
+    margin-top: 15%;
+}
+
+p{
+    text-align: center;
+}
+
+.big{
+    margin-top: 40px;
+    font-size: large;
+}
+
+.hand{
+    position: absolute;
+    padding: 30px;
+    margin-top: -150px;
+    display: none;
+}
+
+#handleft{
+    left: 10%;
+}
+
+#handright{
+    right: 10%;
+}

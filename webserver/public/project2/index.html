@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>tickle time!</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+
+        <!-- confetti code from catdad on github:
+         https://github.com/catdad/canvas-confetti?tab=readme-ov-file -->
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    </head>
+    <body>
+        <p class="big">
+            <!-- this text will change once tickle time begins. -->
+            <span class="title">welcome to tickle time!</span>
+        </p>
+        <div>
+            <p id="countdown">
+                <img class="hand" id="handleft" src="images/handleft.png">
+                <!-- this text will be replaced by a random countdown 
+                 from 5-300 seconds once the window is loaded. -->
+                <span class="text-body">let's begin!</span>
+                <img class="hand" id ="handright" src="images/handright.png">
+            </p>
+                
+        </div>
+        <p>
+            <button id="now">
+                <!-- this button will begin the tickle time function 
+                 right away, for demonstration purposes and tickle enthusiasts. -->
+                start the countdown
+            </button>
+        </p>
+    </body>
+    <audio id="cheer" src = "audio/cheers.wav"></audio>
+    <audio id="tick" src = "audio/tick.wav"></audio>
+</html>
