@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>match your sock</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="navbar">
+           <p>
+             <!-- blinkie generated from https://blinkies.cafe/?s=0029-pinksparkle -->
+             <img src="images/sockmatch-blinkie.gif" width="200px" height="30px">
+             <a href="aboutus.ejs"> ♡ about us ♡ </a>
+           </p>
+        </div>
+        
+        <!-- dropdown bar for filtering -->
+        <div class="selection">
+            <p>
+                <b>sock length:</b>
+            </p>
+            <p>
+                <input id="knee-sock-radio" type="radio" name="sock-length-radio"> knee sock
+                <br>
+                <input id="calf-sock-radio" type="radio" name="sock-length-radio"> calf sock
+                <br>
+                <input id="ankle-sock-radio" type="radio" name="sock-length-radio"> ankle sock
+                <br>
+                <input id="boat-sock-radio" type="radio" name="sock-length-radio"> boat sock
+            </p>
+
+            <p>
+                <b>palette:</b>
+            </p>
+            <p>
+                <input id="colourful-radio" type="radio" name="sock-palette-radio"> colourful
+                <br>
+                <input id="neutral-radio" type="radio" name="sock-palette-radio"> neutral
+            </p>
+
+            <p>
+                <b>status:</b>
+            </p>
+            <p>
+                <input id="looking-radio" type="radio" name="status-radio"> still looking
+                <br>
+                <input id="found-radio" type="radio" name="status-radio"> found
+            </p>
+            <p>
+                <button>reset filters</button>
+            </p>
+        </div>
+        
+
+        <!-- all posts go in here -->
+        <div class="post-container">
+            
+            <!-- posts ideally will show up according to this -->
+             <!-- okay they are not  -->
+            <% for(let p of allPosts){ %>
+
+                <p class="title">
+                    <%= p.title %>
+                </p>
+
+                <p class="post-guy">
+                    <%= p.displayName %>
+                </p>
+
+                <p class="content">
+                    <%= p.text %>
+                </p>
+
+                <% if(p.imgSrc){
+                    <img src= <%=p.imgSrc %>>
+                }
+
+                <% <br> %>
+                
+
+            <% } %>
+
+        </div>
+
+    </body>
+</html>
