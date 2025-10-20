@@ -16,9 +16,10 @@ app.set('view engine', 'ejs')
 
 // setting up global variables
 
-let filteredLength = null
-let filteredPalette = null
-let filteredStatus = null
+// scrapped code: global filter
+// let filteredLength = null
+// let filteredPalette = null
+// let filteredStatus = null
 
 let posts = [
 
@@ -192,9 +193,11 @@ app.get('/', (request, response)=>{
 
     let data = {
         allPosts: posts,
-        filteredLength: filteredLength,
-        filteredPalette: filteredPalette,
-        filteredStatus: filteredStatus
+
+        // scrapped code: global filter
+        // filteredLength: filteredLength,
+        // filteredPalette: filteredPalette,
+        // filteredStatus: filteredStatus
     }
 
     // data.visible = true
@@ -289,4 +292,5 @@ app.get('/about-us', (req, res)=>{
 
 app.listen(5001, ()=>{
     console.log('server started')
+
 })
