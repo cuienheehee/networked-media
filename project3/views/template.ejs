@@ -1,0 +1,128 @@
+<html>
+
+  <head>
+    <title>match your sock</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <p>
+        <!-- blinkie generated from https://blinkies.cafe/?s=0029-pinksparkle -->
+        <img src="images/sockmatch-blinkie.gif" width="200px" height="30px">
+        <a href="about-us"> ♡ about us ♡ </a>
+      </p>
+    </div>
+
+    <a href="post"><img class="postbutton" src="images/sock-post.png"></a>
+
+    <!-- dropdown bar for filtering -->
+    <div class="selection">
+      <form action="/filter" method="GET">
+        <p>
+          <b>sock length:</b>
+        </p>
+        <p>
+          <input type="radio" name="sockLengthFilter" value="knee"> knee sock
+          <br>
+          <input type="radio" name="sockLengthFilter" value="calf"> calf sock
+          <br>
+          <input type="radio" name="sockLengthFilter" value="ankle"> ankle sock
+          <br>
+          <input type="radio" name="sockLengthFilter" value="boat"> boat sock
+        </p>
+
+        <p>
+          <b>palette:</b>
+        </p>
+        <p>
+          <input type="radio" name="sockPaletteFilter" value="colourful"> colourful
+          <br>
+          <input type="radio" name="sockPaletteFilter" value="neutral"> neutral
+        </p>
+
+        <p>
+          <b>status:</b>
+        </p>
+        <p>
+          <input type="radio" name="statusFilter" value="looking"> still looking
+          <br>
+          <input type="radio" name="statusFilter" value="found"> found
+        </p>
+
+        <p><input type="submit" name="submitfiltbtn" value="filter"></p>
+
+        <p><input type="reset" name="resetbtn" value="reset selection"></p>
+
+      </form>
+
+    </div>
+
+    <!-- all posts go in here -->
+    <div class="post-container">
+
+      <!-- template for posts -->
+      <!-- classes are added to posts based on value of radio buttons checked when posting. --> 
+
+      <% for(let i=0; i < allPosts.length; i++){ %>
+
+        <div class="post 
+          
+          <% if(allPosts [i].sockLength) { %>
+            <%= allPosts [i].sockLength %> 
+          <% } %>
+
+          <% if(allPosts [i].sockPalette) { %>
+            <%= allPosts [i].sockPalette %> 
+          <% } %>
+
+          <% if(allPosts [i].sockStatus) { %>
+            <%= allPosts [i].sockStatus %> 
+          <% } %>
+
+          <% if(filteredLength && allPosts [i].sockLength != filteredLength || filteredPalette && allPosts [i].sockPalette != filteredPalette || filteredStatus && allPosts [i].sockStatus != filteredStatus) { %>
+            hideme
+          <% } %>
+       
+        ">
+
+          <p class="title">
+            <%= allPosts [i].title %>
+          </p>
+
+          <p class="post-guy">
+            <%= allPosts [i].displayName %>
+          </p>
+
+          <p class="content">
+            <%= allPosts [i].text %>
+            <br>
+          </p>
+
+          <% if (allPosts [i].imgSrc){ %>
+            <img src=<%= allPosts [i].imgSrc %>>
+            <br>
+            <br>
+          <% } %>
+
+          <% if (allPosts [i].sockStatus){ %>
+            <div class="tag"><%= allPosts [i].sockStatus %></div>
+          <% } %>
+
+          <% if (allPosts [i].sockLength){ %>
+            <div class="tag"><%= allPosts [i].sockLength %> sock</div>
+          <% } %>
+
+          <% if (allPosts [i].sockPalette){ %>
+            <div class="tag"><%= allPosts [i].sockPalette %> palette</div>
+          <% } %>
+          
+          
+        </div>
+      <% } %>
+    </div>
+
+  </body>
+
+</html>

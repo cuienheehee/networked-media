@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>post your sock</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <p>
+            <!-- blinkie generated from https://blinkies.cafe/?s=0029-pinksparkle -->
+            <img src="images/sockmatch-blinkie.gif" width="200px" height="30px">
+            <a href="/"> ♡ home ♡ </a>
+            </p>
+        </div>
+
+        <div class="post-container">
+            
+                
+            <!-- form for submission -->
+            <form action="/submit" method="POST" enctype="multipart/form-data">
+               
+                <div class="post">
+
+                    <p class="title">♡ post your sock! ♡</p>
+
+                    <p><b>title:</b></p>
+                    <textarea name="title" value=""></textarea>
+
+                    <p><b>display name:</b></p>
+                    <input type="text" name="user" value="">
+                    
+                    <p><b>your message:</b></p>
+                    <textarea name="message" class="message-box" value=""></textarea>
+                    
+                    <div class="posting">
+                        <p><b>♡ tag your sock! ♡</b></p>
+
+                        <p><b>sock length:</b></p>
+
+                        <div class="radios">
+                            <input type="radio" name="lengthPost" value="knee"> knee sock
+                            <br>
+                            <input type="radio" name="lengthPost" value="calf"> calf sock
+                            <br>
+                            <input type="radio" name="lengthPost" value="ankle"> ankle sock
+                            <br>
+                            <input type="radio" name="lengthPost" value="boat"> boat sock
+                        </div>
+
+                        <p><b>sock palette:</b></p>
+
+                        <div class="radios">
+                            <input type="radio" name="palettePost" value="colourful"> colourful
+                            <br>
+                            <input type="radio" name="palettePost" value="neutral"> neutral
+                        </div>
+
+                    </div>
+
+                    <div class="posting">
+                        <p><b>submit an image (optional):</b></p>
+                        <input type="file" name="imageInput">
+                    </div>
+                    
+                    
+                    <br>
+
+                    <p><input type="submit" name="submitbtn" value="Post My Sock!"></p>
+
+                </div> 
+
+            </form>
+        </div>
+    </body>
+</html>
