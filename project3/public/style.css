@@ -1,0 +1,230 @@
+body{
+    background-color: rgb(250, 235, 237);
+    background-image: url(images/sockheart.gif);
+    background-repeat: repeat;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(201, 17, 127);
+    overflow: hidden;
+}
+
+/* briefly considered making all divs the same length. this allows the scroll bar to appear whenever a div is hovered over. */
+/* div{
+    overflow: hidden;
+}
+
+div:hover{
+    overflow-y: auto;
+} */
+
+.navbar{
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:pink;
+    border: hidden 3px rgb(201, 17, 127);
+    border-bottom-style: dotted;
+}
+
+.navbar a{
+    float: right;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.selection{
+    font-size: small;
+    line-height: 20px;
+
+    position: absolute;
+    display: block;
+    float: left;
+
+    margin: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    
+    background-color: pink;
+    border: 3px rgb(201, 17, 127);
+    border-style: dotted;
+}
+
+
+.post-container{
+    padding: 10%;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    height: 78.5%;
+    text-align: center;
+
+    overflow: auto;
+    scrollbar-color: rgb(201, 17, 127) pink;
+    scrollbar-width: thin;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    z-index: 0;
+}
+
+.post{
+    font-size: small;
+
+    border: 3px rgb(201, 17, 127);
+    border-style: dotted;
+
+    background-color:pink;
+    box-shadow: 3px 3px 3px;
+
+    margin: 10px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    vertical-align: top;
+
+    flex: 1 0 25%;
+    max-width: 25%;
+    /* height: 250px; */
+    display: inline-block;
+}
+
+.post img{
+    max-width: 100%;
+    max-height: 220px;
+    border: 3px rgb(201, 17, 127);
+    border-style: dotted;
+    margin: 5px;
+}
+
+.tag{
+    font-size: small;
+    background-color: rgb(201, 17, 127);
+    color: pink;
+
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    
+    display: inline;
+}
+
+.title{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.post-guy{
+    line-height: 0px;
+    font-size: x-small;
+}
+
+.content{
+    font-size: small;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.postbutton{
+    height: 250px;
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.postbutton:hover{
+    rotate: 20deg;
+}
+
+form {
+    width: 100%;
+}
+
+.posting{
+    font-size: small;
+
+    border: 3px rgb(201, 17, 127);
+    border-style: dotted;
+
+    background-color:pink;
+    /* box-shadow: 3px 3px 3px; */
+
+    margin: 10px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    vertical-align: top;
+
+    width: 80%;
+    /* height: 250px; */
+    display: inline-block;
+}
+
+input[type=text] {
+    color: rgb(201, 17, 127);
+    border: 1px solid rgb(201, 17, 127);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=submit]{
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background-color: rgb(201, 17, 127);
+    color: pink;
+    border-color: rgb(201, 17, 127);
+
+    margin: 5px;
+    margin-bottom: 0px;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+input[type=reset]{
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background-color: rgb(201, 17, 127);
+    color: pink;
+    border-color: rgb(201, 17, 127);
+
+    margin: 5px;
+    padding: 5px;
+    margin-top: 0px;
+    border-radius: 5%;
+}
+
+::file-selector-button{
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background-color: rgb(201, 17, 127);
+    color: pink;
+    border-color: rgb(201, 17, 127);
+
+    margin: 5px;
+    padding: 5px;
+    margin-top: 0px;
+    border-radius: 5%;
+}
+
+.radios {
+    text-align: left;
+}
+
+textarea {
+    resize: none;
+    width: 90%;
+    color: rgb(201, 17, 127);
+    border-color: rgb(201, 17, 127);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.message-box{
+    height: 160px;
+}
+
+.hideme{
+    display: none;
+}
