@@ -1,0 +1,14 @@
+textarea{
+    resize: none;
+    width: 200px;
+    height: 100px;
+}
+
+body{
+    margin: 20px;
+    line-height: 30px;
+}
+
+.date-text{
+    font-size: small;
+}
