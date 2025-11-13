@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>submit something</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form action="/post" method="POST" enctype="multipart/form-data">
+
+            <textarea name="object"
+            placeholder="object" required></textarea>
+
+            <div>
+                <input type="radio" name="relativeLocation" value="on" required> on
+                <input type="radio" name="relativeLocation" value="inside"> inside
+                <input type="radio" name="relativeLocation" value="beside"> beside
+            </div>
+
+            
+            <textarea name="refereceObject"
+            placeholder="object for location reference" required></textarea>
+
+            <br>
+            <br>
+
+            <input type="submit"
+            value="add to database">
+        </form>
+
+        <div class="posts">
+            <% for(let post of posts){ %>
+                <p>
+                    <span class="date-text"> <%= post.date %> </span>
+                    <br>
+                    <%= post.object %>, 
+                    is <%= post.location %> 
+                    <%= post.refereceObject %>
+                </p>
+
+            <% } %>
+        </div>
+    </body>
+</html>
