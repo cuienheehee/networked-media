@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>the garden</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- navbar: consistent with every page -->
+        <div class="navbar">
+            <p>
+            <!-- kaomoji from https://emojicombos.com/garden -->
+            <b>the garden ₊˚ʚ 𖧧 ₊˚✧ ﾟ.</b>
+
+            <% if(flowerid){ %>
+                <span id="tellem">hover over the plants to find your flower!</span>
+            <% } else { %>
+                <a href="/"></a>
+            <% } %>
+            </p>
+        </div>
+
+        <div class="joinbox">
+            <a href="/garden"><button class="join">✧ join the garden ✧</button></a>
+
+        </div>
+        
+        <div class="everything-else">
+            
+            <div>
+
+                <% for(let i=0; i < posts.length; i++){ %>
+
+                    <div class= "
+                    <% if(i% 2 == 0){ %>
+                        garden-box-small 
+                    <%}else {%>
+                        garden-box-small alt 
+                    <%}%>
+
+                    <% if(posts [i]._id == flowerid) { %>
+                        myflower
+                    <% } %>
+                    ">
+                        <img class="garden-img" src="
+                            <% if (posts [i].form == "flower kitty") { %>
+                                images/cat-flower.gif
+                            <%} else if (posts [i].form == "coast anemone") { %>
+                                images/coast-anemone.gif
+                            <%} else if (posts [i].form == "fated pear") { %>
+                                images/fated-pear.gif
+                            <%} else if (posts [i].form == "horsechid") { %>
+                                images/horsechid.gif
+                            <%} else if (posts [i].form == "jellovers") { %>
+                                images/jellover.gif
+                            <%} else if (posts [i].form == "orange-you-glad") { %>
+                                images/orange-you-glad.gif
+                            <%} else if (posts [i].form == "cherry panda") { %>
+                                images/panda-cherry.gif
+                            <%} else if (posts [i].form == "pomegranite") { %>
+                                images/pomegranite.gif
+                            <%} else if (posts.form == "pudding-on-a-plant") { %>
+                                images/pudding-in-a-plant.gif
+                            <%} else if (posts [i].form == "snow(man)drops") { %>
+                                images/snowdrops.gif
+                            <%} else if (posts [i].form == "sprout sprout") { %>
+                                images/sprout-sprout.gif
+                            <%} else if (posts [i].form == "starflowers") { %>
+                                images/star-flower.gif
+                            <%} else if (posts [i].form == "trumpet glory") { %>
+                                images/trumpet-glory.gif
+                            <%} else if (posts [i].form == "vampire tomato") { %>
+                                images/vomato.gif
+                            <%} else if (posts [i].form == "wolfberries") { %>
+                                images/wolfberries.gif
+                            <%} else if (posts [i].form == "apple bees") { %>
+                                images/applebees.gif
+                            <%}%>
+                            ">
+                    </div>
+                <%}%>
+                
+            </div>
+            
+        </div>
+    </body>
+</html>

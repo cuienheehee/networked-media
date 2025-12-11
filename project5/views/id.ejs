@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>your id</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- navbar: consistent with every page -->
+        <div class="navbar">
+            <p>
+            <!-- kaomoji from https://emojicombos.com/garden -->
+            <b>your id ₊˚ʚ 𖧧 ₊˚✧ ﾟ.</b>
+            <a href="/">back to the garden</a>
+            </p>
+        </div>
+
+        <div class="everything-else">
+            <div class="id">
+                <!-- image based on form of flower -->
+
+                 <img class="id-img" src="
+                 <% if (allData.form == "flower kitty") { %>
+                    images/cat-flower.gif
+                 <%} else if (allData.form == "coast anemone") { %>
+                    images/coast-anemone.gif
+                 <%} else if (allData.form == "fated pear") { %>
+                    images/fated-pear.gif
+                 <%} else if (allData.form == "horsechid") { %>
+                    images/horsechid.gif
+                 <%} else if (allData.form == "jellovers") { %>
+                    images/jellover.gif
+                 <%} else if (allData.form == "orange-you-glad") { %>
+                    images/orange-you-glad.gif
+                 <%} else if (allData.form == "cherry panda") { %>
+                    images/panda-cherry.gif
+                 <%} else if (allData.form == "pomegranite") { %>
+                    images/pomegranite.gif
+                 <%} else if (allData.form == "pudding-on-a-plant") { %>
+                    images/pudding-in-a-plant.gif
+                 <%} else if (allData.form == "snow(man)drops") { %>
+                    images/snowdrops.gif
+                 <%} else if (allData.form == "sprout sprout") { %>
+                    images/sprout-sprout.gif
+                 <%} else if (allData.form == "starflowers") { %>
+                    images/star-flower.gif
+                 <%} else if (allData.form == "trumpet glory") { %>
+                    images/trumpet-glory.gif
+                 <%} else if (allData.form == "vampire tomato") { %>
+                    images/vomato.gif
+                 <%} else if (allData.form == "wolfberries") { %>
+                    images/wolfberries.gif
+                 <%} else if (allData.form == "apple bees") { %>
+                    images/applebees.gif
+                 <%}%>
+                 ">
+                 <div class="id-info">
+                    <p class="title"> <%=allData.form%></p>
+                    <p>maintenance level: <%=allData.maintenance%></p>
+                    <p>preferred climate: <%=allData.climate%></p>
+                    <p>social preference: <%=allData.social%></p>
+                    <p>yields: <%=allData.yields%>s</p>
+                    <p class="description">
+                        <% if (allData.form == "flower kitty") { %>
+                            "some say that if you lightly massage its leaves, you will be rewarded with a gentle purr."
+                        <%} else if (allData.form == "coast anemone") { %>
+                            "not land anemone, not sea anemone, but a secret third and more evil thing."
+                        <%} else if (allData.form == "fated pear") { %>
+                            "have you ever seen plants that are in love? well, now you have."
+                        <%} else if (allData.form == "horsechid") { %>
+                            "despite how cute they look, they have a dangerous edge. no matter how hungry you are, please don't eat a horsechid."
+                        <%} else if (allData.form == "jellovers") { %>
+                            "jello clovers. surprisingly durable for how jiggly they are?"
+                        <%} else if (allData.form == "orange-you-glad") { %>
+                            "no, really, orange you glad you were assigned this plant?"
+                        <%} else if (allData.form == "cherry panda") { %>
+                            "the two pandas take turns napping underground. dirt sure is comfortable!"
+                        <%} else if (allData.form == "pomegranite") { %>
+                            "it's like pomegranate, but a huge inedible rock!"
+                        <%} else if (allData.form == "pudding-on-a-plant") { %>
+                            "scientists have studied this plant through and through: it's just pudding on a plant."
+                        <%} else if (allData.form == "snow(man)drops") { %>
+                            "they make a soft jingling sound when they sense jolliness around them."
+                        <%} else if (allData.form == "sprout sprout") { %>
+                            "sometimes, when a sprout tries very very hard, it will sprout another sprout."
+                        <%} else if (allData.form == "starflowers") { %>
+                            "it's been rumoured to wake up once every 100 years. scientists have yet to see it happen."
+                        <%} else if (allData.form == "trumpet glory") { %>
+                            "it's kind of like if a rooster was a plant, if you think about it."
+                        <%} else if (allData.form == "vampire tomato") { %>
+                            "don't get too close! it bites, and it bites hard."
+                        <%} else if (allData.form == "wolfberries") { %>
+                            "if you howl into a shrub of wolfberries, it will keep on howling until it wilts."
+                        <%} else if (allData.form == "apple bees") { %>
+                            "these fruits have a light honey scent to them. they are popular with bears."
+                        <%}%>
+                    </p>
+                </div>
+            </div>
+
+            <a href="/"><button>join the garden (officially)</button></a>
+
+        </div>
+        
+        
+    </body>
+</html>
