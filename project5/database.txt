@@ -1,0 +1,26 @@
+{"date":"2025-12-10, 9:49:12 p.m.","timestamp":1765421352594,"maintenance":"low","climate":"warm","social":"lone","yields":"fruit","form":"cherry panda","_id":"1C52uXdhudoV3AkZ"}
+{"date":"2025-12-10, 9:55:25 p.m.","timestamp":1765421725495,"maintenance":"low","climate":"cool","social":"lone","yields":"flower","form":"sprout sprout","_id":"1aPXNajEZL5SWl0l"}
+{"date":"2025-12-10, 5:10:09 a.m.","timestamp":1765361409677,"maintenance":"high","climate":"cool","social":"lone","yields":"fruit","form":"vampire tomato","_id":"4HKsF8HuK2Y7ilOB"}
+{"date":"2025-12-10, 11:16:18 p.m.","timestamp":1765426578318,"maintenance":"high","climate":"cool","social":"lone","yields":"fruit","form":"vampire tomato","_id":"Fbd0CjFOudQixJGG"}
+{"date":"2025-12-11, 12:13:33 a.m.","timestamp":1765430013155,"maintenance":"low","climate":"cool","social":"pack","yields":"flower","form":"jellovers","_id":"GHflNyjQnnhyksTD"}
+{"date":"2025-12-10, 9:54:08 p.m.","timestamp":1765421648231,"maintenance":"low","climate":"cool","social":"lone","yields":"flower","form":"sprout sprout","_id":"GYEChX1aGqrbKZXc"}
+{"date":"2025-12-10, 5:10:34 a.m.","timestamp":1765361434573,"maintenance":"high","climate":"cool","social":"lone","yields":"fruit","form":"vampire tomato","_id":"Kjv5k8i9IIR2ZPk9"}
+{"date":"2025-12-10, 5:11:26 a.m.","timestamp":1765361486623,"maintenance":"high","climate":"warm","social":"pack","yields":"fruit","form":"orange-you-glad","_id":"LWekzOxQ3ah1vEWj"}
+{"date":"2025-12-10, 9:40:47 p.m.","timestamp":1765420847822,"maintenance":"low","climate":"warm","social":"pack","yields":"flower","form":"coast anemone","_id":"MEl3CQaTin26StNt"}
+{"date":"2025-12-10, 9:40:22 p.m.","timestamp":1765420822891,"maintenance":"low","climate":"warm","social":"pack","yields":"flower","form":"coast anemone","_id":"PJQSSG4Vn1PaOLEU"}
+{"date":"2025-12-10, 10:20:40 p.m.","timestamp":1765423240535,"maintenance":"low","climate":"cool","social":"pack","yields":"flower","form":"jellovers","_id":"SdzlJqVV3PDFPyxX"}
+{"date":"2025-12-10, 9:13:12 p.m.","timestamp":1765419192061,"maintenance":"low","climate":"warm","social":"lone","yields":"fruit","form":"cherry panda","_id":"U9qDqEQcICbHeXNc"}
+{"date":"2025-12-10, 9:34:11 p.m.","timestamp":1765420451973,"maintenance":"low","climate":"warm","social":"lone","yields":"flower","form":"trumpet glory","_id":"VH8dQ8lqbnj5kv0Y"}
+{"date":"2025-12-10, 9:48:24 p.m.","timestamp":1765421304448,"maintenance":"low","climate":"warm","social":"lone","yields":"fruit","form":"cherry panda","_id":"XulsrbHggXzaDsWK"}
+{"date":"2025-12-10, 8:24:40 p.m.","timestamp":1765416280378,"maintenance":"high","climate":"cool","social":"pack","yields":"flower","form":"snow(man)drops","_id":"Z3iiO5K9rcunOfe9"}
+{"date":"2025-12-10, 9:37:03 p.m.","timestamp":1765420623942,"maintenance":"low","climate":"warm","social":"lone","yields":"flower","form":"trumpet glory","_id":"aHRddmtQd2xfyhGt"}
+{"date":"2025-12-10, 5:09:49 a.m.","timestamp":1765361389534,"maintenance":"low","climate":"warm","social":"pack","yields":"flower","form":"coast anemone","_id":"aqXw1quOHgkVLtwh"}
+{"date":"2025-12-10, 9:32:22 p.m.","timestamp":1765420342544,"maintenance":"high","climate":"warm","social":"pack","yields":"fruit","form":"orange-you-glad","_id":"dQKfrPX1j8oQzYV5"}
+{"date":"2025-12-10, 9:29:00 p.m.","timestamp":1765420140736,"maintenance":"high","climate":"cool","social":"lone","yields":"fruit","form":"vampire tomato","_id":"fVplsJqDxxYU5fO9"}
+{"date":"2025-12-10, 9:45:35 p.m.","timestamp":1765421135424,"maintenance":"low","climate":"warm","social":"pack","yields":"fruit","form":"apple bees","_id":"gtvEpWps5zqV2xix"}
+{"date":"2025-12-10, 9:49:50 p.m.","timestamp":1765421390366,"maintenance":"low","climate":"warm","social":"lone","yields":"fruit","form":"cherry panda","_id":"j9xt84CZW88tmGmV"}
+{"date":"2025-12-10, 5:20:39 a.m.","timestamp":1765362039479,"maintenance":"low","climate":"warm","social":"pack","yields":"flower","form":"coast anemone","_id":"lKZQ7aD8LW4FbMXn"}
+{"date":"2025-12-10, 9:42:24 p.m.","timestamp":1765420944330,"maintenance":"high","climate":"warm","social":"pack","yields":"fruit","form":"orange-you-glad","_id":"mycdGq0jMCCVmKqe"}
+{"date":"2025-12-10, 5:14:39 a.m.","timestamp":1765361679954,"maintenance":"low","climate":"warm","social":"pack","yields":"fruit","form":"apple bees","_id":"nlUoLwhzrW34uWzn"}
+{"date":"2025-12-10, 8:55:20 p.m.","timestamp":1765418120932,"maintenance":"low","climate":"warm","social":"lone","yields":"flower","form":"trumpet glory","_id":"wZZChtQkYnT2R6pW"}
+{"date":"2025-12-10, 8:57:56 p.m.","timestamp":1765418276122,"maintenance":"high","climate":"cool","social":"pack","yields":"fruit","form":"fated pear","_id":"wyqi0W1Bxnt0FHnU"}
